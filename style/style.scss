@@ -1,8 +1,8 @@
-$color: #313539;
+$color-main: #313539;
 
-$font-family: font-family: 'Montserrat', ;
+$font-family-main: 'Montserrat', ;
 
-$border: 1px solid #c4d6e4;
+$border-main: 1px solid #c4d6e4;
 
 @mixin flex-column {
   display: flex;
@@ -30,7 +30,7 @@ $border: 1px solid #c4d6e4;
 }
 
 body {
-  font-family: $font-family;
+  font-family: $font-family-main;
 }
 
 .icon-menu {
@@ -55,7 +55,7 @@ body {
   transition: all 1s;
   &-header {
     @include flex-row();
-    color: $color;
+    color: $color-main;
     justify-content: space-between;
     align-items: flex-start;
     position: relative;
@@ -110,12 +110,12 @@ body {
       z-index: -1;
     }
     &__search-input {
-      font-family: $font-family;
-      border-bottom: $border;
+      font-family: $font-family-main;
       @include vertical-padding();
+      border: none;
+      border-bottom: $border-main;
       padding-left: 20px;
       font-size: 13px;
-      border: none;
       width: 100%;
       outline: none;
       &:focus {
@@ -132,14 +132,15 @@ body {
   &-body {
     font-size: 17px;
     &__row {
-      border-bottom: $border;
+      border-bottom: $border-main;
       @include flex-row();
-      padding: 15px;
     }
     &__row-name {
-      color: $color;
+      color: $color-main;
       width: 100%;
       font-weight: 500;
+      padding: 15px;
+      box-sizing: border-box;
     }
     &__row-image {
       max-width: 64px;
@@ -148,7 +149,7 @@ body {
   }
   
   &-external {
-    border-top: $border;
+    border-top: $border-main;
     @include flex-column();
     justify-content: space-between;
     height: calc(100vh - 175px);
@@ -156,7 +157,7 @@ body {
   }
 
   &-inner {
-    color: $color;
+    color: $color-main;
     position: absolute;
     top: -1px;
     right: -110%;
@@ -165,13 +166,13 @@ body {
     background: #fff;
     transition: all .5s;
     &__selected {
-      border-bottom: $border;
+      border-bottom: $border-main;
       padding: 15px;
       position: relative;
       cursor: pointer;
       &::after {
         content: '';
-        background-image: url('assets/arrow-back.svg');
+        background-image: url('../assets/back-arrow.svg');
         background-repeat: no-repeat;
         position: absolute;
         top: calc(50% - 5px);
@@ -211,7 +212,7 @@ body {
   }
 
   &-footer {
-    color: $color;
+    color: $color-main;
     font-size: 15px;
     padding-bottom: 20px;
     &__contacts {
@@ -234,7 +235,7 @@ img {
 }
 
 a {
-  color: $color;
+  color: $color-main;
   text-decoration: none;
 }
 
