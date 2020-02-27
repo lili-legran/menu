@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="12.5" viewBox="0 0 18 12.5">
+    <defs>
+        <style>
+            .cls-1{fill:#f10}.cls-2{clip-path:url(#clip-path)}.cls-3{fill:#338ffa}.cls-4{fill:#fff}.cls-5,.cls-7{fill:none}.cls-5{stroke:#c4d6e4}.cls-6{stroke:none}
+        </style>
+        <clipPath id="clip-path">
+            <rect id="Rectangle_26" width="16" height="10.5" class="cls-1" data-name="Rectangle 26" rx="2" transform="translate(1194 56)"/>
+        </clipPath>
+    </defs>
+    <g id="flag" transform="translate(-1209.401 -60)">
+        <g id="Mask_Group_1" class="cls-2" data-name="Mask Group 1" transform="translate(16.401 5)">
+            <rect id="Rectangle_25" width="16" height="10.5" class="cls-3" data-name="Rectangle 25" rx="4" transform="translate(1194 56)"/>
+            <path id="Rectangle_27" d="M0 0h16v3.5H0z" class="cls-4" data-name="Rectangle 27" transform="translate(1194 56)"/>
+            <path id="Rectangle_28" d="M0 0h16v3.5H0z" class="cls-1" data-name="Rectangle 28" transform="translate(1194 63)"/>
+        </g>
+        <g id="Rectangle_75" class="cls-5" data-name="Rectangle 75" transform="translate(1210.402 61)">
+            <rect width="16" height="10.5" class="cls-6" rx="2"/>
+            <rect width="17" height="11.5" x="-.5" y="-.5" class="cls-7" rx="2.5"/>
+        </g>
+    </g>
+</svg>

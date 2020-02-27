@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <title>Menu</title>
+</head>
+
+<body>
+  <div class="icon-menu">
+    <img src="assets/menu.png">
+  </div>
+  <div class="menu menu-hidden">
+    <div class="menu-header">
+      <div class="menu-header__main">
+        <div class="menu-header__row">
+          <div class="menu-header__row-lang menu-header__row-lang_arrow">
+            <img src="assets/flag-ru.svg">
+            <span>RU</span>
+            <img src="assets/down-arrow.svg" class="menu-header__row-arrow" alt="arrow">
+          </div>
+        </div>
+        <div class="menu-header__row menu-header__hidden-row">
+          <div class="menu-header__row-lang">
+            <img src="assets/flag-en.svg">
+            <span>EN</span>
+          </div>
+        </div>
+        <div class="menu-header__row menu-header__hidden-row">
+          <div class="menu-header__row-lang">
+            <img src="assets/flag-be.svg">
+            <span>BE</span>
+          </div>
+        </div>
+      </div>
+      <div class="menu-header__icons">
+        <img src="assets/search.svg" class="menu-header__icons-search" alt="search">
+        <img src="assets/long-arrow.svg" class="menu-header__icons-arrow" alt="arrow">
+      </div>
+      <div class="menu-header__search menu-header__search-hidden">
+        <input type="search" class="menu-header__search-input" placeholder="What are you looking for?">
+      </div>
+    </div>
+    <div class="menu-external">
+      <div class="menu-body">
+        <a class="menu-body__row" href="#">
+          <span class="menu-body__row-name"> Services </span>
+          <img src="./assets/short-arrow.svg" class="menu-body__row-image" alt="arrow">
+        </a>
+        <a class="menu-body__row" href="#">
+          <span class="menu-body__row-name"> Managed IT </span>
+          <img src="./assets/short-arrow.svg" class="menu-body__row-image"  alt="arrow">
+        </a>
+        <a class="menu-body__row" href="#">
+          <span class="menu-body__row-name"> Hardware </span>
+          <img src="./assets/short-arrow.svg" class="menu-body__row-image"  alt="arrow">
+        </a>
+        <a class="menu-body__row" href="#">
+          <span class="menu-body__row-name"> Company </span>
+          <img src="./assets/short-arrow.svg" class="menu-body__row-image"  alt="arrow">
+        </a>
+        <a class="menu-body__row" href="#">
+          <span class="menu-body__row-name"> For Partners </span>
+        </a>
+      </div>
+      <div class="menu-footer">
+        <div class="menu-footer__contacts">
+          <img src="assets/geo.svg" alt="geo">
+          <span>Contacts</span>
+        </div>
+        <div class="menu-footer__phone">
+          <img src="assets/phone.svg">
+          <a href="tel:+78007775522">8 800 777 55 22</a>
+        </div>
+      </div>
+      <div class="menu-inner">
+        <div class="menu-inner__selected">
+          <span class="menu-inner__selected_title"></span>
+        </div>
+        <ul class="menu-inner__lvl-2">
+          <li class="menu-inner__lvl-2_name">
+            <div class="menu-inner__lvl-2_title">Platforms</div>
+            <ul class="menu-inner__lvl-3 menu-inner__lvl-3_hidden">
+              <li class="menu-inner__lvl-3_name">Aws</li>
+              <li class="menu-inner__lvl-3_name">GCP</li>
+              <li class="menu-inner__lvl-3_name">Azure</li>
+              <li class="menu-inner__lvl-3_name">AlibabaCloud</li>
+              <li class="menu-inner__lvl-3_name">MTS</li>
+              <li class="menu-inner__lvl-3_name">VMware, KVM</li>
+            </ul>
+          </li>
+          <li class="menu-inner__lvl-2_name">DevOps</li>
+          <li class="menu-inner__lvl-2_name">Servers</li>
+          <li class="menu-inner__lvl-2_name">Systems</li class="menu-inner__lvl-2_name">
+          <li class="menu-inner__lvl-2_name">Applications</li class="menu-inner__lvl-2_name">
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
